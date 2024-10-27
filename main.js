@@ -33,3 +33,7 @@ informazioni() {
         return annoCorrente - this.anno;
     }
 }
+
+console.log(miaVettura.informazioni());
+
+console.log(`Età della vettura: ${miaVettura.calcolaEta()} anni`);
