@@ -15,3 +15,8 @@ class Veicolo {
         this.porte = porte;
         this.carburante = carburante;
     }
+
+
+    informazioni() {
+        return `Marca: ${this.marca}, Anno: ${this.anno}, Colore: ${this.colore}, Porte: ${this.porte}, Carburante: ${this.carburante}`;
+    }
