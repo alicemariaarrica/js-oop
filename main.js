@@ -17,9 +17,6 @@ class Veicolo {
     }
 
 
-//Creiamo una nuova istanza di veicolo che rappresenti una Fiat 2019 blu.
-
-const miaVettura = new Veicolo("Fiat", 2019, "blu", 5, "benzina");
 
 //Otteniamo le informazioni della vettura utilizzando il metodo informazioni()
 
@@ -33,6 +30,10 @@ informazioni() {
         return annoCorrente - this.anno;
     }
 }
+
+//Creiamo una nuova istanza di veicolo che rappresenti una Fiat 2019 blu.
+
+const miaVettura = new Veicolo("Fiat", 2019, "blu", 5, "benzina");
 
 console.log(miaVettura.informazioni());
 
